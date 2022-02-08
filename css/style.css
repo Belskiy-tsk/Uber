@@ -838,8 +838,16 @@ footer .footer_wrapper .lang {
     font-size: 10px;
     line-height: 22px;
   }
+  header .fixed .subheader_btn:hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
+    background-image: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+  }
   .promo_header {
     line-height: 45px;
+  }
+  .promo_btn:hover {
+    background-image: -webkit-gradient(linear, left bottom, left top, from(#1EACC7), to(#4CE2FF));
+    background-image: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
   }
   .benefits_item {
     width: 100%;
@@ -948,6 +956,14 @@ footer .footer_wrapper .lang {
   }
   header .fixed nav .menu {
     width: 85%;
+  }
+  header .fixed nav .menu_item {
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+  }
+  header .fixed nav .menu_link {
+    display: block;
   }
   header .fixed nav .hamburger {
     top: 8px;

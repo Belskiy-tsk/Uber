@@ -170,10 +170,14 @@
                     margin-top: 10px
                     font-size: 10px
                     line-height: 22px
-    .promo
+                    &:hover
+                        background-image: linear-gradient(0deg, $cyan 0%, #4CE2FF 100%)
+    .promo          
         &_header
             line-height: 45px
-
+        &_btn
+            &:hover
+                 background-image: linear-gradient(0deg, $cyan 0%, #4CE2FF 100%)
     .benefits
         &_item
             width: 100%
@@ -249,6 +253,13 @@
                 height: 30px
                 .menu
                     width: 85%
+                    &_item
+                        width: 100%
+                        text-align: center
+                        padding: 5px 0
+                    &_link
+                        display: block
+
                 .hamburger
                     top: 8px
             .subheader
